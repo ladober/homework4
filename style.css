@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    width: 1440px;
+    padding: 0;
+}
+
+@font-face {
+    font-family: "Dejavu Sans";
+    src: url(bpg_dejavu_sans.otf);
+}
+
+ul , ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* header */
+
+.header {
+    display: flex;
+    height: 200px;
+    background-color:#D9D9D9;
+    align-items: center;
+}
+.navbar {
+    display: flex;
+    font-size: 24px;
+    font-family: "ALK Life";
+    align-items: center;
+}
+
+.logo {
+    margin-left: 130px;
+}
+
+.menu-ul {
+    margin-left: 287px;
+    padding: 0;
+    width: 715px;
+    height: 30px;
+    display: flex;
+}
+
+.wignebi {
+    color: #A62B28;
+}
+.menu {
+    color: #717276;
+    margin-left: 38px;
+}
+
+/* main */
+
+.section {
+    display: flex;
+}
+.backgr-img {
+    margin: auto;
+    margin-top: 160px;
+}
+
+/* article 1 */
+
+.frame {
+    width: 533px;
+    margin-top: 160px;
+    margin-left: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.font-dejavu {
+    font-family: "Dejavu Sans";
+    margin-left: 40px;
+    font-size: 32px;
+    color: #717276;
+}
+
+/* article 2 */
+
+.article-books {
+    display: flex;
+}
+.book1 {
+    /* display: flex; */
+    width: 380px;
+    margin-top: 40px;
+    margin-left: 130px;
+}
+
+.book-2-3 {
+    display: block;
+    margin-top: 40px;
+    margin-left: 20px;
+}
+
+.tamta {
+    margin-top: 50px;
+    margin-left: 130px;
+}
+
+.tamta-name-font {
+    font-family: "Dejavu Sans";
+    font-size: 24px;
+    color: #717276;
+    font-weight: 700;
+}
+.tamta-book {
+    margin-top: 8px;
+    font-family: "ALK Life";
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.tamta-book a {
+    color: black;
+}
+
+.tamta-price {
+    margin-top: 8px;
+    font-size: 24px;
+    font-family: "Dejavu Sans";
+    font-weight: 700;
+}
+
+.tamta-price a {
+    color: black;
+}
