@@ -1,7 +1,7 @@
-body{
-    margin: 0;
-    width: 1440px;
-    padding: 0;
+* {
+    padding:0;
+    margin:0;
+    max-width: 1440px;
 }
 
 @font-face {
@@ -62,7 +62,7 @@ a {
     margin-top: 160px;
 }
 
-/* article 1 */
+/* frame */
 
 .frame {
     width: 533px;
@@ -72,7 +72,7 @@ a {
     align-items: center;
 }
 
-.font-dejavu {
+.frame-font-dejavu {
     font-family: "Dejavu Sans";
     margin-left: 40px;
     font-size: 32px;
@@ -81,51 +81,99 @@ a {
 
 /* article 2 */
 
-.article-books {
-    display: flex;
-}
 .book1 {
-    /* display: flex; */
+    display: inline-flex;
     width: 380px;
     margin-top: 40px;
     margin-left: 130px;
 }
 
-.book-2-3 {
-    display: block;
-    margin-top: 40px;
+.book2-3 {
+    display: inline-flex;
+    width: 380px;
     margin-left: 20px;
 }
 
-.tamta {
-    margin-top: 50px;
-    margin-left: 130px;
-}
-
-.tamta-name-font {
+.name {
     font-family: "Dejavu Sans";
     font-size: 24px;
     color: #717276;
     font-weight: 700;
 }
-.tamta-book {
+.name-book {
     margin-top: 8px;
     font-family: "ALK Life";
     font-size: 24px;
     font-weight: 400;
-}
-
-.tamta-book a {
     color: black;
 }
 
-.tamta-price {
+.name-price {
     margin-top: 8px;
     font-size: 24px;
     font-family: "Dejavu Sans";
     font-weight: 700;
+    color:black;
 }
 
-.tamta-price a {
+.name-p {
+    margin-top: 50px;
+}
+
+/* frame 2 */
+
+.frame2 {
+    display: flex;
+    margin-left: 130px;
+    width: 432px;
+    margin-top: 160px;
+    align-items: center;
+}
+
+.authors-article {
+    display: flex;
+    margin-left: 130px;
+    margin-top: 40px;
+    width: 1180px;
+}
+
+.authors-article-imgs {
+    padding-left: 20px;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    background-color: #D9D9D9;
+    height: 248px;
+    margin-top: 160px;
+}
+
+.footer-div-ul {
+    width: 174px;
+    height: 106px;
+    margin-left: 130px;
+    padding-top: 71px;
+}
+
+.footer-menu {
+    font-family: "ALK Life";
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 8px;
+}
+
+.footer a {
     color: black;
 }
+
+.links {
+    margin-left: 802px;
+    margin-top: 71px;
+}
+
+.links a {
+    margin-left: 21px;
+}
+
